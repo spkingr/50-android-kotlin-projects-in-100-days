@@ -6,7 +6,7 @@ My everyday Android practice demos with Kotlin in 100 days.
 *Date: 2017-08-03*
 
 ![ProjectTapCounter.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectTapCounter/ProjectTapCounter.gif)
-dad   
+
 **What I learned from this demo:**
 
 * Menu resource file creation and option menus add to title bar

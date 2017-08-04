@@ -1,6 +1,21 @@
 # 50-android-kotlin-projects-in-100-days
 My everyday Android practice demos with Kotlin in 100 days.
 
+***
+## 2. Tap or Hold Counter
+
+*Date: 2017-08-04*
+
+![ProjectTapHoldCounter.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectTapHoldCounter/ProjectTapHoldCounter.gif)
+
+What I learned from this demo:
+
+* Delegates of property in Kotlin
+* Basic usage of Timer and TimerTask
+* Button long click and touch event listener
+* AnkoLogger for test (I have deleted the test code, but the activity has implemented the interface)
+
+***
 ## 1. Tap Counte
 
 *Date: 2017-08-03*

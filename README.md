@@ -2,6 +2,22 @@
 My everyday Android practice demos with Kotlin in 100 days.
 
 ***
+## 4. My Location
+
+*Date: 2017-08-06*
+
+![ProjectMyLocation.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectMyLocation/ProjectMyLocation.gif)
+
+What I learned from this demo:
+
+* Work with LocationManager, get GPS providers and locations
+* Got to know how to request specified Permissions at RunTime
+* Use HttpUrlConnection to fetch data with url and read the input streams
+* The LAMDA of `thread` and `runOnUiThread`
+
+**My network is not stable, and I really do a lot of hard-code, I think I can fix that later.**
+
+***
 ## 3. Tip Calculator
 
 *Date: 2017-08-05*

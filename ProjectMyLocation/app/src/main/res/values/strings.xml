@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjectMyLocation</string>
+    <string name="waiting">Waiting for fetching location address...</string>
+    <string name="nogps">No GPS location providers available, please check!</string>
+    <string name="errorinfo">Error while get location info!</string>
+    <string name="noconn">Net connection is unavailable!</string>
+</resources>

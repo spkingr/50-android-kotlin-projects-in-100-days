@@ -2,6 +2,19 @@
 My everyday Android practice demos with Kotlin in 100 days.
 
 ***
+## 5. Pick Image
+
+*Date: 2017-08-08*
+
+![ProjectPickImage.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectPickImage/ProjectPickImage.gif)
+
+What I learned from this demo:
+
+* Start a intent and get the result from that
+* Work with local images and camera basics
+* Display bitmap data on an ImageView
+
+***
 ## 4. My Location
 
 *Date: 2017-08-06*

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ProjectPickImage</string>
+    <string name="take_from_camera">Take From Camera</string>
+    <string name="pick_from_album">Pick From Album</string>
+    <string name="image_show">Image Show</string>
+</resources>

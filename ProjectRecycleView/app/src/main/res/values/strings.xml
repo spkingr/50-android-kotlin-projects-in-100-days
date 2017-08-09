@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ProjectRecycleView</string>
+    <string name="item_image_desc">Item image</string>
+</resources>

@@ -2,6 +2,21 @@
 My everyday Android practice demos with Kotlin in 100 days.
 
 ***
+## 6. Basic RecycleView
+
+*Date: 2017-08-09*
+
+![ProjectRecycleView.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectRecycleView/ProjectRecycleView.gif)
+
+What I learned from this demo:
+
+* The very basics of RecycleView
+* RecycleView with custom ViewHolder and Adapter, and layout managers
+* Using `lazy` delegates , and `Pair<out A, out B>` in Kotlin
+
+**In fact it shows the unexpected results, but I will give more effort to the RecycleView app next time.**
+
+***
 ## 5. Pick Image
 
 *Date: 2017-08-08*

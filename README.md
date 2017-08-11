@@ -2,6 +2,20 @@
 My everyday Android practice demos with Kotlin in 100 days.
 
 ***
+## 7. Recycle Image Loader
+
+*Date: 2017-08-11*
+
+![ProjectRecycleImageLoader.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectRecycleImageLoader/ProjectRecycleImageLoader.gif)
+
+What I learned from this demo:
+
+* CardView is very cute, isn't is? (*I hate the gap between image nad text!*)
+* Load json data through HttpURLConnection and display view with ViewStub
+* Use `doAsync{}` and `uiThread{}` to do asynchronized task in Kotlin
+* Read InputStream in Kotlin and convert string data to JSONObject
+
+***
 ## 6. Basic RecycleView
 
 *Date: 2017-08-09*

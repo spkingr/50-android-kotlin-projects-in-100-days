@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProjectRecycleImageLoader</string>
+    <string name="image_of_post_title">Image of post title</string>
+    <string name="reload">Reload</string>
+</resources>

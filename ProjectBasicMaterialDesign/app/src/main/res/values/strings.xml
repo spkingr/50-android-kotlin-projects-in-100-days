@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProjectBasicMaterialDesign</string>
+    <string name="app_label">BasicMD</string>
+    <string name="video_call">VideoCall</string>
+    <string name="upload">Upload</string>
+    <string name="globe">Globe</string>
+    <string name="plus">Plus</string>
+</resources>

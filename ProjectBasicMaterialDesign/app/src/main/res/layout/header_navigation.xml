@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@mipmap/ic_launcher_round"/>
+
+    <TextView
+        android:id="@+id/labelBlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/labelGithub"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:text="http://liuqingwen.me"
+        android:textColor="@color/textColorPrimary"/>
+
+    <TextView
+        android:id="@+id/labelGithub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:text="Github: https://github.com/spkingr"
+        android:textColor="@color/textColorPrimary"/>
+</RelativeLayout>

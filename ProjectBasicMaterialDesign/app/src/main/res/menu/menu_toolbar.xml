@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuVideoCall"
+        android:icon="@drawable/video_call"
+        android:title="@string/video_call"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menuUpload"
+        android:icon="@drawable/upload"
+        android:title="@string/upload"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menuGlobe"
+        android:icon="@drawable/globe"
+        android:title="@string/globe"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menuPlus"
+        android:icon="@drawable/plus"
+        android:title="@string/plus"
+        app:showAsAction="never"/>
+</menu>

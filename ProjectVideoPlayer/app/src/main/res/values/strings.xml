@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjectVideoPlayer</string>
+    <string name="pick_video">Pick Video</string>
+    <string name="play_video">Play Video</string>
+    <string name="pause_video">Pause Video</string>
+    <string name="stop_video">Stop Video</string>
+</resources>

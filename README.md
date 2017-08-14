@@ -2,6 +2,18 @@
 My everyday Android practice demos with Kotlin in 100 days.
 
 ***
+## 9. Simple Video Player
+
+*Date: 2017-08-14*
+
+![ProjectVideoPlayer.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectVideoPlayer/ProjectVideoPlayer.gif)
+
+What I learned from this demo:
+
+* The first time explore the MediaPlayer with SurfaceView
+* Got idea of LayoutParams and its simple properties (ConstraintLayout.LayoutParams)
+
+***
 ## 8. Basic Material Design
 
 *Date: 2017-08-12*

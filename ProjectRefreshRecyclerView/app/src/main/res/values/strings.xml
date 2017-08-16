@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RefreshRecyclerView</string>
+    <string name="image_of_title">Image of Title</string>
+    <string name="footer_text">This is the footer.</string>
+</resources>

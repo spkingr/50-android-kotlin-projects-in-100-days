@@ -2,6 +2,19 @@
 My everyday Android practice demos with Kotlin in 100 days.
 
 ***
+## 10. Swipe Refresh RecylcerView
+
+*Date: 2017-08-16*
+
+![ProjectRefreshRecyclerView.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectRefreshRecyclerView/ProjectRefreshRecyclerView.gif)
+
+What I learned from this demo:
+
+* Work with SwipeRefreshLayout and RecyclerView
+* Basic AlertDialog and Snackbar usage
+* Custom header and footer item in RecyclerView (It looks a little weird!)
+
+***
 ## 9. Simple Video Player
 
 *Date: 2017-08-14*

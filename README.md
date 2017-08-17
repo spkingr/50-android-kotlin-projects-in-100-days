@@ -2,6 +2,21 @@
 My everyday Android practice demos with Kotlin in 100 days.
 
 ***
+## 11. Simple ASynchronized Works
+
+*Date: 2017-08-17*
+
+![ProjectAsyncWorks.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectAsyncWorks/ProjectAsyncWorks.gif)
+
+What I learned from this demo:
+
+* Try to figure out the differences of usage between Handler and AsyncTask in Android
+* Download file from server via OkHttp and read bytes from InputStream
+* RandomAccessFile for writing file content from specified positions
+
+**Till now I can't figure out a solution to pause/resume the downloading tasks, and I will try it later.**
+
+***
 ## 10. Swipe Refresh RecylcerView
 
 *Date: 2017-08-16*

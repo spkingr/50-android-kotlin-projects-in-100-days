@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjectAsyncWorks</string>
+    <string name="start_download">Start Download</string>
+    <string name="pause_download">Pause Download</string>
+    <string name="resume_download">Resume Download</string>
+    <string name="cancel_download">Cancel Download</string>
+    <string name="get_download_link">Get Download Link</string>
+    <string name="url_address">Url Address:</string>
+</resources>

@@ -2,6 +2,21 @@
 My everyday Android practice demos with Kotlin in 100 days.
 
 ***
+## 11. Simple Scalable ImageView
+
+*Date: 2017-08-28*
+
+![ProjectScalableImageView.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectScalableImageView/ProjectScalableImageView.gif)
+
+What I learned from this demo:
+
+* Multiple constructors from base class inheritance in Kotlin
+* The basic knowledge of custom view: onLayout (left, right, top, bottom)/setFrame/onTouchEvent (Here I should always return `true` for receiving other touch events)
+* Multi-touch handle on views: use `event.actionMasked` instead of `event.action`
+
+**This is a bad-experienced project(view), I think I have to improve that in the next days while learning.**
+
+***
 ## 11. Simple ASynchronized Works
 
 *Date: 2017-08-17*

@@ -1,6 +1,41 @@
 # 50-android-kotlin-projects-in-100-days
 My everyday Android practice demos with Kotlin in 100 days.
 
+
+***
+## 12. Simple Animations with Custom View
+
+*Date: 2017-08-30*
+
+![ProjectSimpleAnimation.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectSimpleAnimation/ProjectSimpleAnimation.gif)
+
+What I learned from this demo:
+
+* Custom view with custom attributes (declared in the xml value file)
+* Use `onMeasure` to set the correct size of view
+* Use `onDraw` to display the paint on the canvas
+* Work with the basic object animator and animator-set
+* The importance of lazy properties in Kotlin, think about the code:
+
+```kotlin
+//the [sunColor] initialized here will be changed later in the constructor through xml user attributes.
+private var sunColor = Color.RED
+/*
+//the paint directly initialized will not be the expected one, as the [sunColor] will change later for xml attributes!
+private val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
+    this.color = this@SunView.sunColor
+    this.isAntiAlias = true
+}
+*/
+//by using the lazy properties, the paint will be all right with the [sunColor] property!
+private val paint by lazy {
+    Paint(Paint.ANTI_ALIAS_FLAG).apply {
+        this.color = this@SunView.sunColor
+        this.isAntiAlias = true
+    }
+}
+```
+
 ***
 ## 11. Simple Scalable ImageView
 

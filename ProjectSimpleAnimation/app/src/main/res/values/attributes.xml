@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SunView">
+        <attr name="sunColor" format="color"/>
+    </declare-styleable>
+    
+    <declare-styleable name="SkyView">
+        <attr name="skyColor" format="color"/>
+        <attr name="starColor" format="color"/>
+        <attr name="minStarSize" format="integer"/>
+        <attr name="maxStarSize" format="integer"/>
+        <attr name="minStarCount" format="integer"/>
+        <attr name="maxStarCount" format="integer"/>
+    </declare-styleable>
+</resources>

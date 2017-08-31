@@ -1,6 +1,18 @@
 # 50-android-kotlin-projects-in-100-days
 My everyday Android practice demos with Kotlin in 100 days.
 
+***
+## 13. Simple Activity with Intent
+
+*Date: 2017-08-31*
+
+![ProjectActivityIntent.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectActivityIntent/ProjectActivityIntent.gif)
+
+What I learned from this demo:
+
+* Dealing with the custom item click handler of RecyclerView
+* Start an intent to show another Activity by `startActivityForResult`
+* Get the result from another activity through method of `onActivityResult`
 
 ***
 ## 12. Simple Animations with Custom View

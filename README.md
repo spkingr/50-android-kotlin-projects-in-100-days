@@ -2,6 +2,19 @@
 My everyday Android practice demos with Kotlin in 100 days.
 
 ***
+## 14. Activity Animations
+
+*Date: 2017-09-01*
+
+![ProjectActivityAnimations.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectActivityAnimations/ProjectActivityAnimations.gif)
+
+What I learned from this demo:
+
+* Transitions between activities use `overridePendingTransition`
+* Work with animation xml resource file, the difference of "50%" and "50%p" (relative to parent view)
+* Override `onBackPressed` method to finish the activity
+
+***
 ## 13. Simple Activity with Intent
 
 *Date: 2017-08-31*

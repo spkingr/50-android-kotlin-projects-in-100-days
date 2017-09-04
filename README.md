@@ -1,6 +1,36 @@
 # 50-android-kotlin-projects-in-100-days
 My everyday Android practice demos with Kotlin in 100 days.
 
+
+***
+## 15. Database with Room
+
+*Date: 2017-09-04*
+
+![ProjectDatabaseRoom.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectDatabaseRoom/ProjectDatabaseRoom.gif)
+![ProjectDatabaseRoom_adb_shell_sqlite3.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectDatabaseRoom_adb_shell_sqlite3/ProjectDatabaseRoom_adb_shell_sqlite3.gif)
+
+What I learned from this demo:
+
+* Use the Room Persistence Library for the basic database operations: INSERT/DELETE/UPDATE/QUERY
+* Work with data class in Kotlin and the `let` lamda, and the annotations
+* Convert date types to string types, and vice versa by using `SimpleDateFormat` or `DateFormat.getDateInstance()`
+* Use `adb shell` and `sqlite3` command to query the data in emulator local system files:
+
+```bash
+$ adb quit
+
+# for more than one device found here
+$ adb devices
+$ adb -s <emulator name> shell
+$ cd data/data/me.liuqingwen.android.projectdatabaseroom/databases
+
+$ sqlite3
+$ .open <dbname.db>
+$ .tables
+$ SELECT * FROM <table name>
+```
+
 ***
 ## 14. Activity Animations
 

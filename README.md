@@ -8,7 +8,7 @@ My everyday Android practice demos with Kotlin in 100 days.
 *Date: 2017-09-04*
 
 ![ProjectDatabaseRoom.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectDatabaseRoom/ProjectDatabaseRoom.gif)
-![ProjectDatabaseRoom_adb_shell_sqlite3.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectDatabaseRoom_adb_shell_sqlite3/ProjectDatabaseRoom_adb_shell_sqlite3.gif)
+![ProjectDatabaseRoom_adb_shell_sqlite3.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectDatabaseRoom/ProjectDatabaseRoom_adb_shell_sqlite3.gif)
 
 What I learned from this demo:
 

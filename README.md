@@ -3,6 +3,22 @@ My everyday Android practice demos with Kotlin in 100 days.
 
 
 ***
+## 16. Self Adaption
+
+*Date: 2017-09-12*
+
+![ProjectSelfAdaption.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectSelfAdaption/ProjectSelfAdaption.gif)
+
+What I learned from this demo:
+
+* Use the Fragments in the Activities
+* Specify different layouts for different size or screen orientation (layout-land and layout-large)
+* Use the empty view element as spacer or divider (be careful of the tag, it is `View` not `view`!)
+* Dynamically set the visibility of view
+
+**Till now I have no idea of using the `savedInstanceState` variable to make the data consistent while rotate the screen orientation, I should try it out later.**
+
+***
 ## 15. Database with Room
 
 *Date: 2017-09-04*

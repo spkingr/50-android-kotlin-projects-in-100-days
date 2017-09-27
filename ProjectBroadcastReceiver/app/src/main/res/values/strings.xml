@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">ProjectBroadcastReceiver</string>
+    <string name="login_page_content">While login, please make sure the WIFI or Mobile Network is available.\n(Username: admin, password: 123456)</string>
+    <string name="logout">Logout</string>
+    
+    <string name="Benjamin">名字：Benjamin
+来源：希伯来
+含义：右手之子
+描述：非常经典、有历史感的名字，它被美国总统使用过，是个很有力又古典的名字。
+流行年代：2013
+最适合类型：适合在大公司工作，有抱负想成为领导的人。
+同名明星：Benjamin Franklin, 美国总统 - Benjamin Harrison, 美国总统 - Benjamin Disraeli, 英国首相 </string>
+    
+    <string name="Charlotte">名字：Charlotte
+来源：法国
+含义：自由
+描述：以前在皇室流行，在2013年被排为11名的名字。
+流行年代：2013
+最适合类型：适合一个迷人、精致又有力的女孩。
+同名明星：Charlotte York, Sex and the City角色</string>
+
+    <string name="Donovan">名字：Donovan
+来源：爱尔兰
+含义：黑暗
+描述：这是个很好的名字！它很独特又有趣，给人感觉很和善又有同情心，同时很独立又坚强。
+可替换名：Donavan
+流行年代：2003
+最适合类型：这适合很感性的人，总能有创意，喜欢尝试新鲜事物.
+同名明星：Donovan Leitch, Actor </string>
+
+    <string name="Mackenzie">名字：Mackenzie
+来源：苏格兰
+含义：Kenneth的儿子
+描述：现在很流行，这个中性名字很美丽又有点假小子的感觉。
+流行年代：2001
+最适合类型：喜欢乡下、自然、户外活动和动物的女孩，比起城市女孩更适合小镇女孩。
+同名明星：Mackenzie Foy, 演员 </string>
+
+    <string name="Michelle">起源：Michael的法国变体
+含义：像上帝的
+可替换拼写：Michele
+感觉：一直是个受欢迎的名字，虽然在美国现在正在不是特别流行，但不会影响它的经典程度，它是个很女性化，有法国魅力的名字。
+适合：复古时尚又经典的女孩，非常友好乐观，尊重传统，总是遵守规则。
+名人：Michelle Obama，美国第一妇女 － Michelle Rodriguez，演员</string>
+
+    <string name="Natasha">名字：Natasha
+来源：俄国
+含义：圣诞节生的
+描述：现在在美国，英国，澳大利亚，加拿大很流行，这个名字很好玩，很开心，而且不普遍。
+流行年代：1986
+最适合类型：用这个名字的人平常当Tasha或者Tash是小名，都很时髦。和适合一个要去澳大利亚或者英国时髦的女生。 </string>
+
+    <string name="Orlando">名字：Orlando
+来源：意大利的Roland
+含义：出名
+描述：在美国不那么流行，这个名字很老成，就适合大人。有点诗意，在文学里比较常用。
+可替换名：Orlan
+评分：7
+流行年代：1975
+最适合类型：一个懂事，温柔，艺术性的男生。
+同名明星：Orlando Bloom, 电影演员 </string>
+
+    <string name="Rosemary">名字：Rosemary
+来源：拉丁
+含义：迷迭香
+描述：比Rose长一点，这个名字更独特，更有趣。一个很漂亮，很容易记住的名字。
+流行年代：1950
+最适合类型：一个很好，很热心，很有趣的女生。她也很聪明，而且喜欢独特。 </string>
+
+    <string name="Valentina">起源：拉丁，Valentine的女性版本
+含义：力量，健康
+感觉：从上世纪90年代中期登上了最受欢迎排行榜，是一个非常多元化的名字，听上去很有异国情调，在很多不同国家都适用，听上去很浪漫，有力。
+适合：勇敢的女孩，不害怕生活给她带来的挑战，也是一个内心浪漫的人，不会过度敏感，非常实际的人。
+名人：Valentina de Angelis</string>
+
+    <string name="Whitney">名字：Whitney
+来源：英格兰
+含义：白色岛
+描述：1980年代和1990年代很流行,所以很多二十几岁的人叫这个名字。后来没有那么流行，不过还是很可爱，很开心。
+流行年代：1986
+最适合类型：给一个很好玩，很开心的女生是最好。其实无论什么类型的人都可以适合。也可以在职场使用。
+同名明星：Whitney Houston, 歌手；Whitney Port, MTV电视台真人秀节目明星 </string>
+
+    <string name="Alexdander">名字:Alexdander
+来源: 希腊
+含义: 守护者
+描述: 这是英文名中最有力的名字！Alexander the Great让所有人都尊敬它！
+流行年代: 2009
+最适合类型: 这是个经典又男人的名字，它很酷又有责任感，很适合领导风范的人。
+同名明星: Alexander the Great - Alexander Hamilton, 美国政治人物 - Alexander Skarsgard, 演员 </string>
+
+    <string name="Adeline">名字：Adeline
+来源：法国，Adele的变体
+含义：高尚
+描述：Adele的可爱年轻版本。它是个很清新的名字，但也有复古的感觉。
+可替换名：Adelyn
+非常传统且富有魅力的名字选择，适合于美好甜美的女生，她对别人也很单纯，有礼貌且友好。流行年代：2013
+最适合类型：适合有着坚强个性，以及喜欢独特事物，比较想在人群中独处的人。 </string>
+</resources>

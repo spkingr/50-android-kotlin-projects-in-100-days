@@ -1,6 +1,21 @@
 # 50-android-kotlin-projects-in-100-days
 My everyday Android practice demos with Kotlin in 100 days.
 
+***
+## 17. Simple Broadcast Receiver
+
+*Date: 2017-09-27*
+
+![ProjectBroadcastReceiver.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectBroadcastReceiver/ProjectBroadcastReceiver.gif)
+
+What I learned from this demo:
+
+* Use one of the most four important components in Android: Broadcast Receiver
+* Extension functions in Kotlin with `AppCompatActivity`
+* Try the open-source library: EventBus to post and handle events, and also the CircleImageView
+* Reduce the redundant of layout by using `<inlucde>` tags
+
+**I am still not very clear with Android `BroadcastReceiver`, I found that it sometimes(especially for the single app development) can be replaced with `EventBus` through publish/subscribe pattern, is that right?**
 
 ***
 ## 16. Self Adaption

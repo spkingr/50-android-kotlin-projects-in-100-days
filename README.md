@@ -2,6 +2,19 @@
 My everyday Android practice demos with Kotlin in 100 days.
 
 ***
+## 18. Basic File Operation
+
+*Date: 2017-10-4*
+
+![ProjectFileReader.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectFileReader/ProjectFileReader.gif)
+
+What I learned from this demo:
+
+* Use SharedPreferences to store and retrieve simple data
+* Basic file operations on Android system, with `openFileInput` and `openFileOutput`
+* Set data in the activity result and return
+
+***
 ## 17. Simple Broadcast Receiver
 
 *Date: 2017-09-27*

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProjectFileReader</string>
+    <string name="login_page_content">Login and go on.\n(Username: admin, password: 123456)</string>
+    <string name="add_new_name">Add a new contact with the name:</string>
+</resources>

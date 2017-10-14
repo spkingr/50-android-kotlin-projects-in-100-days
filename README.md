@@ -2,6 +2,19 @@
 My everyday Android practice demos with Kotlin in 100 days.
 
 ***
+## 19. Downloader With Notifications
+
+*Date: 2017-10-14*
+
+![ProjectDownloaderWithNotification.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectDownloaderWithNotification/ProjectDownloaderWithNotification.gif)
+
+What I learned from this demo:
+
+* Use the basic notifications in Android
+* The asynchronized task with `doAsync` and `uiThread` in Kotlin
+* Basic file and stream operations in Android 
+
+***
 ## 18. Basic File Operation
 
 *Date: 2017-10-4*

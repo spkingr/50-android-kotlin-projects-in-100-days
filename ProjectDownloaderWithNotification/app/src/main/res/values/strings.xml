@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ProjectDownloaderWithNotification</string>
+    <string name="download_description">Download the file from the url: http://liuqingwen.me/upload/download/test.apk, use the buttons to control the download process.</string>
+</resources>

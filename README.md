@@ -1,6 +1,24 @@
 # 50-android-kotlin-projects-in-100-days
 My everyday Android practice demos with Kotlin in 100 days.
 
+
+***
+## 21. The Floating Window
+
+*Date: 2017-12-16*
+
+![ProjectFloatingWindow.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectFloatingWindow/ProjectFloatingWindow.gif)
+
+What I learned from this demo:
+
+* No layout XML files, but replace with the anko layout library to create views
+* Use `WindowManager` to display floating views on the window
+* Deal with the back button pressed to hide the activity, prevent from finishing the app
+
+**After 2 months at last! Still 2 problems or questions:**
+**1. If back pressed and app is killed, then the `android.view.WindowLeaked` exception throws, how to solve?**
+**2. In the emulator, if the drag and drop event happens outside, then the position of the window will be some wried.**
+
 ***
 ## 20. Simple Search Web View
 

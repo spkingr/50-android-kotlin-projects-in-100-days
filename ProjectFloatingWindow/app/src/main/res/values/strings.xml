@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProjectFloatingWindow</string>
+    <string name="text_header">The floating window, use the WindowManager to add the views to the main window.
+        You should set the permission for drawing overlay all the other graphics in your phone settings:
+        \nSettings -> Apps -> ProjectFloatingWindow(or your app name) -> Draw over other apps,
+        \nopen and toggle on, that\'s all!</string>
+    <string name="click_to_show_alert">Click To Show Alert</string>
+    <string name="click_to_hide_alert">Click To Hide Window</string>
+    <string name="image_touch_response">The image header for touch response.</string>
+    <string name="auto_open_float_window">Auto Open Float Window</string>
+</resources>

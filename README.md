@@ -3,6 +3,21 @@ My everyday Android practice demos with Kotlin in 100 days.
 
 
 ***
+## 22. Simple View Pager
+
+*Date: 2017-12-16*
+
+![ProjectViewPager.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectViewPager/ProjectViewPager.gif)
+
+What I learned from this demo:
+
+* Work with `ViewPager` and `TabLayout` together to display walk through pages
+* Use `FragmentStatePagerAdapter` as the `ViewPager` adapter and, the fragments
+* Finish the activity so that make sure it is removed from the stack
+
+**Resource: [ViewPager Tutorial: Getting Started in Kotlin](https://www.raywenderlich.com/169774/viewpager-tutorial-android-getting-started-kotlin)**
+
+***
 ## 21. The Floating Window
 
 *Date: 2017-12-16*

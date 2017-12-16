@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ProjectViewPager</string>
+
+    <string name="app_welcome">Here you are!\nAnd welcome to the new app!</string>
+
+    <string name="android_4">Android 4.1 Jelly Bean was announce on June 27, 2012 at the Google I/O conference by Google Which was based on Linux kernel 3.0.31. This Android 4.1 Jelly Bean was released to the Android Open Source Project on July 9, 2012. The first Android 4.1 Jelly Bean device is Nexus 7 tablet which was released on July 13, 2012.</string>
+    <string name="android_5">Android 5.0 Lollipop was released on Nov 12, 2014.</string>
+    <string name="android_6">Android 6.0 Marshmallow was released on May 28, 2015 during Google I/O.</string>
+    <string name="android_7">Android 7.0 Nougat is the latest version of Android which will be release in the month of August or September 2016. If you really Want to know full details of Android Nougat then visit Wikipedia to know more about this version.</string>
+    <string name="android_8">On 21 August 2017, Google released the name of Android 8.0, is Oreo.  (Latest Android).</string>
+
+</resources>

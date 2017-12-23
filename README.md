@@ -3,6 +3,22 @@ My everyday Android practice demos with Kotlin in 100 days.
 
 
 ***
+## 23. Parcelable Data Objects
+
+*Date: 2017-12-23*
+
+![ProjectParcelableData.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectParcelableData/ProjectParcelableData.gif)
+
+What I learned from this demo:
+
+* Use `Parcelable` objects for data passing between activities
+* Try Android unit test with: **Instrumented Test** and **Unit Test**
+* Data class used both as Parcelable data object and Room database entity
+* Solve two problems through StackOverFlow.com: [Gradle error, failed to create directory](https://stackoverflow.com/questions/46512990/gradle-error-failed-to-create-directory) and [Empty test suite](https://stackoverflow.com/questions/14381694/why-is-the-android-test-runner-reporting-empty-test-suite)
+
+**A lot of functionalities are not implemeted yet in this app, and I will finish that in my next days, hold on please! :)**
+
+***
 ## 22. Simple View Pager
 
 *Date: 2017-12-16*

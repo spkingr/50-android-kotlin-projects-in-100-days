@@ -3,6 +3,22 @@ My everyday Android practice demos with Kotlin in 100 days.
 
 
 ***
+## 24. Photo Wall
+
+*Date: 2017-12-26*
+
+![ProjectPhotoWall.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectPhotoWall/ProjectPhotoWall.gif)
+
+What I learned from this demo:
+
+* Get images throught network, decode stream and display
+* Use `LruCache` to cache the bitmap data for quick loading and recylcling data usage
+* The same Activity is setted as both the **Detail** activity and **Add New** activity
+* Load data from database in the asynchronized way
+
+**If too much photos loaded, will the app get the changce to crash for OOM? I should try to figure it out!**
+
+***
 ## 23. Parcelable Data Objects
 
 *Date: 2017-12-23*

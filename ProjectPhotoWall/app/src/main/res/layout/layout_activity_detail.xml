@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1">
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="me.liuqingwen.android.projectphotowall.DetailActivity">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginStart="64dp"
+                android:background="@color/cardview_dark_background"
+                android:scaleType="fitCenter"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/placeholder"/>
+
+            <TextView
+                android:id="@+id/labelUrl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Url:"
+                android:textSize="18sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textUrl"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <EditText
+                android:id="@+id/textUrl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="type the url here"
+                android:inputType="textUri"
+                app:layout_constraintEnd_toStartOf="@+id/buttonView"
+                app:layout_constraintStart_toEndOf="@+id/labelAuthor"
+                app:layout_constraintTop_toBottomOf="@+id/imageView"/>
+
+            <Button
+                android:id="@+id/buttonView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:drawableStart="@android:drawable/ic_menu_gallery"
+                android:text="View"
+                android:textColor="@color/colorPrimaryDark"
+                app:layout_constraintBottom_toBottomOf="@+id/textUrl"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textAllCaps="false"/>
+
+            <TextView
+                android:id="@+id/labelAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Author:"
+                android:textSize="18sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textAuthor"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <EditText
+                android:id="@+id/textAuthor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:ems="10"
+                android:hint="Your name"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="@+id/textUrl"
+                app:layout_constraintStart_toStartOf="@+id/textUrl"
+                app:layout_constraintTop_toBottomOf="@+id/textUrl"/>
+
+            <EditText
+                android:id="@+id/textDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:ems="10"
+                android:hint="Say something here..."
+                android:inputType="textMultiLine"
+                app:layout_constraintEnd_toEndOf="@+id/textAuthor"
+                app:layout_constraintStart_toStartOf="@+id/textAuthor"
+                app:layout_constraintTop_toBottomOf="@+id/textAuthor"/>
+
+            <TextView
+                android:id="@+id/labelDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textAuthor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textAuthor"
+                tools:text="2017-12-13"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="4dp"
+        android:drawableStart="@android:drawable/ic_menu_save"
+        android:text="@string/save_and_return"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"/>
+
+</android.support.design.widget.CoordinatorLayout>

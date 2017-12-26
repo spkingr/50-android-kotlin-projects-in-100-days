@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjectPhotoWall</string>
+    <string name="no_data_info">No data is presented now, please try to swipe and refresh later.</string>
+    <string name="load_data_info">Loading data, please wait……</string>
+    <string name="save_and_return">Save And Quit</string>
+    <string name="update_and_return">Update And Return</string>
+</resources>

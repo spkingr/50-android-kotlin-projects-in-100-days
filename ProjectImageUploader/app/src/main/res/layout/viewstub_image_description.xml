@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_photo_black_24dp"/>
+
+    <ImageView
+        android:id="@+id/imageInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toEndOf="@+id/imagePhoto"
+        app:layout_constraintTop_toTopOf="@+id/imagePhoto"
+        app:srcCompat="@drawable/ic_info_black_24dp"/>
+
+    <TextView
+        android:id="@+id/labelAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/imagePhoto"
+        app:layout_constraintTop_toBottomOf="@+id/imagePhoto"
+        tools:text="Author: Admin"/>
+
+    <TextView
+        android:id="@+id/labelUrlPath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/labelAuthor"
+        app:layout_constraintTop_toBottomOf="@+id/labelAuthor"
+        tools:text="Url: http://liuqingwen.me/test/upload/test.jgp"/>
+
+    <TextView
+        android:id="@+id/labelUploadDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/labelUrlPath"
+        app:layout_constraintTop_toBottomOf="@+id/labelUrlPath"
+        tools:text="Date: 2017-12-28 11:10:00.000"/>
+
+    <TextView
+        android:id="@+id/labelDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/labelUploadDate"
+        app:layout_constraintTop_toBottomOf="@+id/labelUploadDate"
+        tools:text="Description: test.jpg, 1000KB"/>
+
+</android.support.constraint.ConstraintLayout>

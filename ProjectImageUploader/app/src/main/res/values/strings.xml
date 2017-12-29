@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjectImageUploader</string>
+    <string name="label_author">Author: SpkingR</string>
+    <string name="label_path">Path: http://me.liuqingwen.com/test/upload/test.jpg</string>
+    <string name="label_date">Date: 2017-12-12 22:22:00.000</string>
+    <string name="label_info">No more information here...</string>
+</resources>

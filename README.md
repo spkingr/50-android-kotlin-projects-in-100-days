@@ -3,6 +3,22 @@ My everyday Android practice demos with Kotlin in 100 days.
 
 
 ***
+## 25. Image Uploader
+
+*Date: 2017-12-29*
+
+![ProjectImageUploader.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectImageUploader/ProjectImageUploader.gif)
+
+What I learned from this demo:
+
+* Work with OKHttp to post data: upload files, get and send cookies, retrive the result
+* Use XML Shape to create nice controls such as buttons
+* Crop image and get the bitmap data through `FileProvider` in API greater than 24
+* Use view animations, Gson to analysis json string, `indeterminateProgressDialog` and `alert` in anko
+
+**Realy thanks to the guy in Weixin group: @高尚的乞丐王子 for solving my code problem, while reuse the animation XML will cause wried things!**
+
+***
 ## 24. Photo Wall
 
 *Date: 2017-12-26*

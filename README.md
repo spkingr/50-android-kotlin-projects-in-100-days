@@ -3,6 +3,22 @@ My everyday Android practice demos with Kotlin in 100 days.
 
 
 ***
+## 26. Better Practice Fragment (Part.1)
+
+*Date: 2018-1-8*
+
+![ProjectBetterPracticeFragment.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectBetterPracticeFragment/ProjectBetterPracticeFragment.gif)
+
+What I learned from this demo:
+
+* Use RecylcerView list item animations with XML resource
+* Understand the `layout_behavior` in `CoordinatorLayout` and `layout_anchor` property
+* Try to use Fragment instead the Activity for better practise, it makes ViewPager very esay to build
+* Work with the alert dilog with custom view
+
+**The refactor is not so easy for me, a lot of functionalities is not finished, and I will try to get that done later.**
+
+***
 ## 25. Image Uploader
 
 *Date: 2017-12-29*

@@ -1,0 +1,153 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.liuqingwen.android.projectbetterpracticefragment.DetailFragment">
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3"/>
+
+    <ImageView
+        android:id="@+id/imageHead"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_round"/>
+
+    <EditText
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"/>
+
+    <TextView
+        android:id="@+id/labelPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Phone Number:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textName"/>
+
+    <TextView
+        android:id="@+id/labelBirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Birthday:"
+        app:layout_constraintStart_toStartOf="@+id/labelPhone"
+        app:layout_constraintTop_toBottomOf="@+id/labelPhone"/>
+
+    <TextView
+        android:id="@+id/labelAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Address:"
+        app:layout_constraintStart_toStartOf="@+id/labelBirthday"
+        app:layout_constraintTop_toBottomOf="@+id/labelBirthday"/>
+
+    <TextView
+        android:id="@+id/labelInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Infomation:"
+        app:layout_constraintStart_toStartOf="@+id/labelAddress"
+        app:layout_constraintTop_toBottomOf="@+id/labelAddress"/>
+
+    <EditText
+        android:id="@+id/textPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="+8610088889999"
+        android:inputType="phone"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelPhone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/labelPhone"/>
+
+    <EditText
+        android:id="@+id/textBirthday"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
+        android:ems="10"
+        android:focusable="true"
+        android:hint="Click to choose the date"
+        android:inputType="date"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelBirthday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textPhone"/>
+
+    <EditText
+        android:id="@+id/textAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="China, Hongkong, No.999"
+        android:inputType="text"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/labelAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textBirthday"/>
+
+    <EditText
+        android:id="@+id/textInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text|textMultiLine"
+        android:text="No more information."
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textAddress"
+        app:layout_constraintTop_toBottomOf="@+id/textAddress"/>
+
+
+    <CheckedTextView
+        android:id="@+id/checkedStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:checkMark="@drawable/ic_star_border_black_32dp"
+        android:checkMarkTint="@android:color/darker_gray"
+        android:checked="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+</android.support.constraint.ConstraintLayout>

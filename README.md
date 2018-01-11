@@ -3,6 +3,20 @@ My everyday Android practice demos with Kotlin in 100 days.
 
 
 ***
+## 27. Play With Audio Assets
+
+*Date: 2018-1-11*
+
+![ProjectAudioAssets.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectAudioAssets/ProjectAudioAssets.gif)
+
+What I learned from this demo:
+
+* No XML layouts, the UI is completely replaced with Anko layout codes
+* Work with assets in Android, and use `AssetManager` to do asset management
+* Use `SoundPool` to play tiny `wav` audio files
+* The basic knowledge of Anko layouts, pure code to make views
+
+***
 ## 26. Better Practice Fragment (Part.1)
 
 *Date: 2018-1-8*

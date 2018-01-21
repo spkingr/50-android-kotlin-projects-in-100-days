@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.liuqingwen.android.projectmyswitch.MainActivity">
+
+    <TextView
+        android:id="@+id/labelTextInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/my_switch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/labelDefault"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Default: Off"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelTextInfo"/>
+
+    <TextView
+        android:id="@+id/labelDisabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Disabled(Off)"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/labelDefault"
+        app:layout_constraintTop_toBottomOf="@+id/labelDefault"/>
+
+    <TextView
+        android:id="@+id/labelPadding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Padding: Off"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/labelDisabled"
+        app:layout_constraintTop_toBottomOf="@+id/labelDisabled"/>
+
+    <TextView
+        android:id="@+id/labelAnimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Animation(Slow): Off"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/labelPadding"
+        app:layout_constraintTop_toBottomOf="@+id/labelPadding"/>
+
+    <TextView
+        android:id="@+id/labelCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Customize"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/labelAnimation"
+        app:layout_constraintTop_toBottomOf="@+id/switchAnimation"/>
+
+    <me.liuqingwen.android.projectmyswitch.MySwitch
+        android:id="@+id/switchDefault"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@+id/labelDisabled"
+        app:layout_constraintTop_toTopOf="@+id/labelDefault"/>
+
+    <me.liuqingwen.android.projectmyswitch.MySwitch
+        android:id="@+id/switchDiabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/switchDefault"
+        app:layout_constraintTop_toTopOf="@+id/labelDisabled"/>
+
+    <me.liuqingwen.android.projectmyswitch.MySwitch
+        android:id="@+id/switchPadding"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/holo_blue_bright"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/switchDiabled"
+        app:layout_constraintTop_toTopOf="@+id/labelPadding"/>
+
+    <me.liuqingwen.android.projectmyswitch.MySwitch
+        android:id="@+id/switchAnimation"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:maxAnimationDuration="2000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelAnimation"
+        app:on="true"/>
+
+    <me.liuqingwen.android.projectmyswitch.MySwitch
+        android:id="@+id/mySwitchTest"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="8dp"
+        app:backgroundColor_switch_disabled="@android:color/black"
+        app:backgroundColor_switch_enabled_off="@android:color/holo_blue_dark"
+        app:backgroundColor_switch_enabled_on="@android:color/holo_green_dark"
+        app:buttonColor_switch_disabled="@android:color/holo_orange_light"
+        app:buttonColor_switch_enabled="@android:color/holo_purple"
+        app:buttonSpaceSize_In_Pixel="16"
+        app:contentStrokeWidth_In_Pixel="16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelCustom"
+        app:maxAnimationDuration="200"
+        app:strokeColor_switch_disabled="@android:color/darker_gray"
+        app:strokeColor_switch_enabled="@android:color/holo_orange_light"/>
+
+    <Button
+        android:id="@+id/buttonOnOff"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Toggle On-Off"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mySwitchTest"/>
+
+
+    <Button
+        android:id="@+id/buttonEnableDisable"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Toggle Enable-Disable"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOnOff"/>
+
+</android.support.constraint.ConstraintLayout>

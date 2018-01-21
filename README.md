@@ -3,6 +3,19 @@ My everyday Android practice demos with Kotlin in 100 days.
 
 
 ***
+## 28. Custom View The Switch
+
+*Date: 2018-1-21*
+
+![ProjectMySwitch.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectMySwitch/ProjectMySwitch.gif)
+
+What I learned from this demo:
+
+* Custom view with basic workflow: measure, layout, draw and touch event handle
+* Add custom properties or attributes in XML of view
+* The basics of drawing api in Android with: path, paint, canvas
+
+***
 ## 27. Play With Audio Assets
 
 *Date: 2018-1-11*

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ProjectMySwitch</string>
+    <string name="my_switch">The switch control test.</string>
+</resources>

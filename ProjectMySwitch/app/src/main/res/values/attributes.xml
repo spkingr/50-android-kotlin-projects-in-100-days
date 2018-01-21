@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MySwitch">
+        <attr name="on" format="boolean"/>
+        <attr name="maxAnimationDuration" format="integer"/>
+        <attr name="backgroundColor_switch_enabled_on" format="color"/>
+        <attr name="backgroundColor_switch_enabled_off" format="color"/>
+        <attr name="backgroundColor_switch_disabled" format="color"/>
+        <attr name="strokeColor_switch_enabled" format="color"/>
+        <attr name="strokeColor_switch_disabled" format="color"/>
+        <attr name="buttonColor_switch_enabled" format="color"/>
+        <attr name="buttonColor_switch_disabled" format="color"/>
+        <attr name="contentStrokeWidth_In_Pixel" format="float"/>
+        <attr name="buttonSpaceSize_In_Pixel" format="float"/>
+    </declare-styleable>
+</resources>

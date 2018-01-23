@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <Switch
+        android:id="@+id/switchMapType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:checked="true"
+        android:showText="true"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat"
+        android:textOff="Satellite"
+        android:textOn="Normal"
+        android:thumb="@drawable/switch_thumb"
+        android:track="@drawable/switch_track"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/textSearch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:completionThreshold="2"
+        android:ems="10"
+        android:hint="search..."
+        android:inputType="textPostalAddress"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSearch"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/buttonSearch"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/switch_track"
+        android:padding="8dp"
+        android:tint="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/textSearch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textSearch"
+        app:srcCompat="@drawable/ic_search_black_24dp"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -3,6 +3,21 @@ My everyday Android practice demos with Kotlin in 100 days.
 
 
 ***
+## 29. A Map Demo
+
+*Date: 2018-1-23*
+
+![ProjectAMap.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectAMap/ProjectAMap.gif)
+
+What I learned from this demo:
+
+* Show map, display marker, animate camera, search, deal with the latitude and longitude with A Map API
+* Fullscreen control, show and hide the soft keyboard
+* Work with the `AutoCompleteTextView` widget
+
+**Resource: [A MAP](http://lbs.amap.com/)**
+
+***
 ## 28. Custom View The Switch
 
 *Date: 2018-1-21*

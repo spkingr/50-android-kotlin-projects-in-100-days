@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="parentBackground">#abc363</color>
+    <color name="simpleViewGroupBackground">#f687d5</color>
+    <color name="buttonBackground">#11b84b</color>
+    <color name="textViewBackground">#37b7ee</color>
+    <color name="otherViewGroupBackground">#997f7a</color>
+</resources>

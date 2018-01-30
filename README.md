@@ -3,6 +3,20 @@ My everyday Android practice demos with Kotlin in 100 days.
 
 
 ***
+## 30. A Simple Custom View Group
+
+*Date: 2018-1-29*
+
+![ProjectSimpleViewGroup.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectSimpleViewGroup/ProjectSimpleViewGroup.gif)
+
+What I learned from this demo:
+
+* It works like a charm!!! Five days cost to finish my little simple `ViewGroup`! That deserves.
+* Got the basic idea of the processes of `measure`, `layout`, `touchEvent`, `interceptEvent`, and custom child layout parameters
+* Use the `scroller` to make the movement much smooth
+* Let the `ViewGroup` support click event and long click events
+
+***
 ## 29. A Map Demo
 
 *Date: 2018-1-23*

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleViewGroup"/>
+    <declare-styleable name="SimpleViewGroup_Layout">
+        <attr name="android:layout_gravity"/>
+    </declare-styleable>
+</resources>

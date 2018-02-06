@@ -3,6 +3,24 @@ My everyday Android practice demos with Kotlin in 100 days.
 
 
 ***
+## 31. Retrofit And RxAndroid
+
+*Date: 2018-2-6*
+
+![ProjectRetrofit.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectRetrofit/ProjectRetrofit.gif)
+
+What I learned from this demo:
+
+* Try with `Retrofit` and `RxAndroid`/`RxJava` to populate data in web service
+* No XML layout now, try to work with pure `Anko` layouts, and the awesome `Anko ConstraintLayout` library
+* How to change the layout in `RecyclerView`, and smooth scroll to the desired position
+* Anko layout with `Coordinator Layout`, `CardView`, `AppBar Layout`, `Toolbar` and so on in `design` support library
+* Pre-load or pause-load behavior in `Glide` image loader with `RecyclerView` while scrolling
+
+Resource: [Anko ConstraintLayout](https://github.com/Kotlin/anko/wiki/ConstraintLayout)
+[Glide: RecyclerView integration library](https://bumptech.github.io/glide/int/recyclerview.html)
+
+***
 ## 30. A Simple Custom View Group
 
 *Date: 2018-1-29*

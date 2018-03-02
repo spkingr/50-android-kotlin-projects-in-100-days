@@ -3,6 +3,21 @@ My everyday Android practice demos with Kotlin in 100 days.
 
 
 ***
+## 32. Basic Android MVP
+
+*Date: 2018-3-1*
+
+![ProjectBasicMVP.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectBasicMVP/ProjectBasicMVP.gif)
+
+What I learned from this demo:
+
+* Use the basic MVP pattern in Android project, to make code clean and testable
+* Understand and use the abstract class and abstract methods
+* The data binding in view, use this library: `KotlinAndroidViewBindings` (I just copied some code in my project.)
+
+Resource: [KotlinAndroidViewBindings](https://github.com/MarcinMoskala/KotlinAndroidViewBindings)
+
+***
 ## 31. Retrofit And RxAndroid
 
 *Date: 2018-2-6*
@@ -106,7 +121,7 @@ What I learned from this demo:
 * Crop image and get the bitmap data through `FileProvider` in API greater than 24
 * Use view animations, Gson to analysis json string, `indeterminateProgressDialog` and `alert` in anko
 
-**Realy thanks to the guy in Weixin group: @¸ßÉÐµÄÆòØ¤Íõ×Ó for solving my code problem, while reuse the animation XML will cause wried things!**
+**Realy thanks to the guy in Weixin group: @ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½Ø¤ï¿½ï¿½ï¿½ï¿½ for solving my code problem, while reuse the animation XML will cause wried things!**
 
 ***
 ## 24. Photo Wall

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProjectBasicMVP</string>
+
+    <string name="username_length_error">Username must at least 5 characters</string>
+    <string name="username_space_error">Username cannot contain spaces</string>
+    <string name="username_start_error">Username must start with letters</string>
+
+    <string name="password_length_error">Password must at least 6 characters</string>
+
+    <string name="list_empty_error">The list is empty</string>
+</resources>

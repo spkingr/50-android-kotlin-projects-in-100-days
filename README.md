@@ -3,6 +3,24 @@ My everyday Android practice demos with Kotlin in 100(far and far more...) days.
 
 
 ***
+## 34. Basic Material Animation
+
+*Date: 2018-3-11*
+
+![ProjectMaterialAnimation.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectMaterialAnimation/ProjectMaterialAnimation.gif)
+
+What I learned from this demo:
+
+* Basic material animations for Fragment: enter/exit transition, shared element trasition
+* Use coroutines to do time-consuming process: `async`, `await` in `launch` coroutines scope
+* Build animations in `ConstraintLayout` use simple and powerful `ConstraintSet` and `Transition`
+* Single activity as a container with multiple fragments
+
+Resource: [Android KTX library](https://github.com/android/android-ktx)
+[Keyframe Animations with ConstraintLayout and ConstraintSet](https://www.youtube.com/watch?v=OHcfs6rStRo)
+**PS: While use shared element between fragments, I notice that, the 1st: `add` will not work but `replace` works, and 2nd: I set `transitionName` in the `CardView` instead of directly in the `ImageView`, which is the sub-view of `CardView`, that works!**
+
+***
 ## 33. ObjectBox And Coroutines
 
 *Date: 2018-3-7*

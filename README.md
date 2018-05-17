@@ -3,6 +3,48 @@ My everyday Android practice demos with Kotlin in 100(far and far more...) days.
 
 
 ***
+## 36. Service
+
+*Date: 2018-5-17*
+
+![ProjectService.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectService/ProjectService.gif)
+
+What I learned from this demo:
+
+* Create `Service` in Android app with `IBinder`, send notification background
+* Use `Guideline` and `Barrier` in `ConstraintLayout` with *Anko Layout*
+* Switch threads in `RxAndroid`, and in `doOnComplete`
+
+**PS: To correctly use `Guideline` in constraint layout as the item ui in `RecyclerView`, I add the code bellow to make sure the layout renders expectedly:**
+
+```kotlin
+constraintLayout {
+    //Importance!
+    layoutParams = ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
+    guideline {
+        id = ID_GUIDELINE
+    }.lparams(width = matchConstraint, height = matchConstraint){
+        orientation = ConstraintLayout.LayoutParams.VERTICAL
+        guidePercent = 0.25f
+    }
+    //... other code
+}        
+```
+
+***
+## 35. Reactive Text Search
+
+*Date: 2018-5-2*
+
+![ProjectReactiveText.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectReactiveText/ProjectReactiveText.gif)
+
+What I learned from this demo:
+
+* Create `Observable` from buttons and text changes, and merge them together
+* Switch work threads, use `doOnNext` to show progress bar, and dispose them when needed
+* Use arrays in XML resource, change the button appearance use the theme of `Widget.AppCompat.Button.Colored`
+
+***
 ## 34. Basic Material Animation
 
 *Date: 2018-3-11*

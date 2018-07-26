@@ -3,6 +3,34 @@ My everyday Android practice demos with Kotlin in 100(far and far more...) days.
 
 
 ***
+## 38. Simple Game With Libgdx
+
+*Date: 2018-7-26*
+
+![ProjectSimpleGame.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectSimpleGame/ProjectSimpleGame.gif)
+
+What I learned from this demo:
+
+* Build simple game in Android with `libgdx` framework
+* Manage multi scenes in the game with `Stages` and `Camera` and `Sprites`
+* Use `Box2D` to do simple physics simulation in the game
+
+***
+## 37. Basic Unit And UI Test
+
+*Date: 2018-7-25*
+
+![ProjectAndroidTest.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectAndroidTest/ProjectAndroidTest.gif)
+
+What I learned from this demo:
+
+* Basic unit test with `JUnit4`, and `Espresso` test framework in Android
+* Use `mockK` to do Kotlin unit test: mock, spy, function callback captures and verify, ect
+* Simple UI test in Android with `Espresso` and `barista` library: find view, click, `recyclerview` test and waiting and so on
+
+Resource: [mockK](http://mockk.io)
+
+***
 ## 36. Service
 
 *Date: 2018-5-17*

@@ -3,7 +3,32 @@ My everyday Android practice demos with Kotlin in 100(far and far more...) days.
 
 
 ***
-## 38. Simple Game With Libgdx
+## 39. Image Puzzle Game
+
+*Date: 2018-8-10*
+
+![ProjectImagePuzzle.gif](https://github.com/spkingr/50-android-kotlin-projects-in-100-days/raw/master/ProjectImagePuzzle/ProjectImagePuzzle.gif)
+
+What I learned from this demo:
+
+* Make a simple image puzzle game with bitmap data operations: scale, draw, clip and so on
+* Use the powerful `BRVAH` library to make a simple `RecyclerView` with **XML** layout
+* Now remove the support library and migrate to `androidX` packages, so **Anko** layout is not supported right now
+
+**PS:** Restart(cold reboot) simulator to make the downloaded images appear in gallery.
+
+```bash
+# while build failed with this problem:
+# Cause: delight/rhinosandox/RhinoSandboxes
+# Try run the command in terminal:
+
+gradlew clean assemble -stacktrace
+```
+
+Resource: [How to Build a Jigsaw Puzzle Android Game](https://dragosholban.com/2018/03/09/how-to-build-a-jigsaw-puzzle-android-game/)
+
+***
+## 38. Simple Game With LibGdx
 
 *Date: 2018-7-26*
 

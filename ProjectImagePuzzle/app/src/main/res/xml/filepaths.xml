@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--<external-path name="path_DCIM" path="DCIM/puzzle" />
+    <external-path name="path_Pictures" path="Pictures/puzzle" />
+    <files-path name="path_private_files" path="images" />
+    <cache-path name="path_private_cache" path="images" />
+    <external-files-path name="path_external_files" path="Pictures" />
+    <external-cache-path name="path_external_cache" path="." />-->
+
+    <external-path name="myImages" path="."/>
+</paths>

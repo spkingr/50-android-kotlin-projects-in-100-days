@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProjectImagePuzzle</string>
+    <string name="image">Image</string>
+    <string name="source_type">The image source type</string>
+    <string name="build_in_assets">Welcome to the Image Puzzle Game!\n(The images list below is the build-in ones, you can also use images from gallery.)</string>
+    <string name="image_puzzle">Puzzle of image</string>
+    <string name="error">Error</string>
+    <string name="result">Result</string>
+    <string name="reset">Reset</string>
+</resources>
